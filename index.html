@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WONDERLAND</title>
+    <title>WonderlandBlog</title>
 </head>
 
 <body>
 <header>
     <nav>
-        <img src="images/logo/Blog Logo for ITGIRLS cource.png" width="150" height="100" alt="Logotype"> | 
+        <img src="images/logo/Logo.png" width="150" height="100" alt="Logotype"> | 
         <a href="#">Блог</a> | 
         <a href="#">Автор</a> | 
         <a href="#">Контакты</a> | 
@@ -29,8 +29,8 @@
         <img src="images/posts/Russia.jpg" width="350" height="250" alt="Russia" />
         <h4>Что посмотреть в России, помимо храмов?</h4>
         <p>Россия - бескрайняя держава и в каждой ее части можно найти много увлекательного. От севера до юга природа может меняться. ...</p>
-        <label for="post1">Дата поста:</label>
-        <input type="text" id="post1" value="10/01/2022">
+        <label for="post3">Дата поста:</label>
+        <input type="text" id="post3" value="10/01/2022">
     </article>
 </figure>
 
@@ -39,8 +39,8 @@
         <img src="images/posts/Schengen-visa.jpg" width="350" height="250" alt="Schengen-visa" />
         <h4>Шенгенская виза - что за зверь и с чем его едят?</h4>
         <p>Шенгенская виза - "окно в Европу". Это не простой документ, данная виза открывает вам пути в 26 стран шенгенской зоны. ...</p>
-        <label for="post1">Дата поста:</label>
-        <input type="text" id="post1" value="27/12/2021">
+        <label for="post2">Дата поста:</label>
+        <input type="text" id="post2" value="27/12/2021">
     </article>
 </figure>
 
@@ -55,30 +55,44 @@
 </figure>
 <!--стрелки прокрутки постов при помощи JS (посты идут в линию)--> 
 
-<main>Привет, читатель! Давай знакомиться ближе - меня зовут Алиса и я не представляю свою жизнь без путешествий. Этот увлекательный и безмерно познавательный мир ...
+<main>Привет, дорогой читатель! Давай знакомиться ближе - меня зовут Алиса и я не представляю свою жизнь без путешествий. Этот увлекательный и безмерно познавательный мир ...
 </main>
 
-<!--ссылка на плейлист для путешествий--> 
 <p><a href="https://open.spotify.com/playlist/5ju1tsTwxhfAbQuFeExlSS">Плейлист с музыкой, которая сделает путешествия на машине, поезде или самолете особенно приятными!</a></p>
 
+<figure>
+<video controls>
+    <source src="папка_с_видео/имя_файла.mp4" type="video/mp4">
+    <source src="папка_с_видео/имя_файла.ogv" type="video/ogg">
+    <source src="папка_с_видео/имя_файла.webm" type="video/webm">
+</video>
+<label><b><br />Перед началом сбора вещей в дорогу, посмотрите видео с лайфхаками от опытного путешественника - Антона Птушкина.</b></label>
+</figure>
 
-
-<!--ссылка на видеоролики о путешествиях ???--> 
-
-
-
-
-
-<!--повтор меню, контакты (<address>) и пользовательское соглашение о том, что блог несет только информационный характер, без продажи услуг-->
 <footer>
-    <p>Автор блога: Алиса Ч.</p>
-    <p>Написать автору можно тут: <a href="mailto:alisach@gmail.com">alisach@wonderlandblog.com</a></p>
+<figure>
+    <nav>
+        | 
+        <a href="#">Блог</a> | 
+        <a href="#">Автор</a> | 
+        <a href="#">Контакты</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Facebook</a> | 
+    </nav>
+
+        <form action="#"><br />Подпишись на блог и не упускай познавательное веселье:
+        <label for="subscribe"></label>
+        <input type="text" placeholder="Email" id="subscribe" required>
+        <button>Подписаться</button>
+        </form>
+
+    <address>
+        <p>&copy; 2021 WonderlandBlog.<br />
+        Полное или частичное копирование изображений и текстов возможно только с указанием активной ссылки на сайт WonderlandBlog</p>
+        <a href="#">Пользовательское соглашение: блог несет исключительно информационный характер, без продажи каких-либо услуг.</a>
+    </address>
+</figure>
 </footer>
-
-
-
-<!--Форма email рассылки-->
-    <form action="#">Форма email рассылки</form>
 
 </body>
 </html>
